@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+nav{
+    padding: 1 rem;
+    background-color: #404240;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    padding: 1rem;
+    font-size: 2rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    
+}
+.menu li{
+    margin: 0 1rem;
+   
+} 
+
+
+.menu li a{
+    color: #fff;
+    text-decoration: none;
+}
